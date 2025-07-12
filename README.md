@@ -19,11 +19,11 @@ go run main.go
 
 ### Build and Run with Docker
 1. Build the Docker image:
-   ```sh
+```sh
 docker build -t go-docker-hello-world .
 ```
 2. Run the Docker container:
-   ```sh
+```sh
 docker run -p 8080:8080 go-docker-hello-world
 ```
 3. Visit [http://localhost:8080](http://localhost:8080) in your browser.
